@@ -122,8 +122,7 @@ button{
   font-size: 18px;
   width: 226px;
 }
-#incomplete-tasks .input,
-#completed-tasks .input {
+.todo .input {
   width: 226px;
 }
 .image-delete {
@@ -142,12 +141,10 @@ button{
 }
 
 /* Edit Task */
-.input {
+.todo .input {
   display: none;
 }
-.add-item .input{
-  display: block;
-}
+
 .edit-mode .input {
   display: inline-block;
   width: 224px;
